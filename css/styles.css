@@ -21,25 +21,34 @@ section {
 }
 
 article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     margin: 2% 0;
     width: 35%;
     background-color: var( --FondoClaro);
     height: 30%;
     box-shadow: 2px 7px 40px -1px rgba(0,0,0,0.85);
-    padding: 5% 2%;
+    padding: 3% 2%;
+}
+
+h3, p, footer {
+    color: var(--LetraClara);
 }
 
 h3 {
-    text-align: center;
-    color: var(--LetraClara);
+    font-size: 25px;
+}
+
+p {
+    margin-top: 3%;
+    font-size: 17px;
 }
 
 .imagen {
     height: 200px;
     width: 200px;
     border-radius: 50%;
-    position: relative;
-    left: 20%;
     margin: 5% 0;
     background-repeat: no-repeat;
 }
@@ -50,7 +59,49 @@ h3 {
 }
 
 .aleman {
-    background-image: url('/img/ovejero alemán.jpg');
+    background-image: url('/img/ovejero_aleman.jpg');
     background-size: 160%;
 }
 
+.husky {
+    background-image: url('/img/husky_siberiano.jpg');
+}
+
+.napolitano {
+    background-image: url('/img/mastin_napolitano.jpg');
+    background-size: 160%;
+    background-position: 40%;
+}
+
+.groenendael {
+    background-image: url('/img/ovejero_belga_groenendael.jpg');
+    background-size: 100%;
+    background-position: 10%;
+}
+
+.tervueren{
+    background-image: url('/img/ovejero_belga_tervueren.jpg');
+    background-size: 215%;
+    background-position: 60%;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--FondoOscuro);
+    height: 55px;
+    margin-top: 5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer a {
+    color: var(--FondoClaro);
+}
+
+li a {
+    color: var(--LetraClara);
+}

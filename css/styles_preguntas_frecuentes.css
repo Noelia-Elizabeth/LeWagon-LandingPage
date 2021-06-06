@@ -1,0 +1,47 @@
+@import url('./variables.css');
+
+#header-top {
+    text-align: center;
+    background-color: var(--FondoOscuro);
+    color: var(--LetraClara);
+    padding: 1%;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 3%;
+    width: 60%;
+}
+
+h1 {
+    display: inline-block;
+    margin-top: 3%;
+    color: var(--LetraOscura);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--FondoOscuro);
+    height: 55px;
+    margin-top: 5%;
+    color: var(--LetraClara);
+    position: absolute;
+    bottom: 0;
+    width: 99%;
+}
+
+a {
+    text-decoration: none;
+}
+
+footer a {
+    color: var(--FondoClaro);
+}

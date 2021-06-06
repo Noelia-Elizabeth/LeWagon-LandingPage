@@ -10,7 +10,6 @@ nav {
     justify-content: space-between;
     align-items: center;
     background-color: var(--FondoIntermedio);
-    color: var(--LetraClara);
 }
 
 nav ul {
