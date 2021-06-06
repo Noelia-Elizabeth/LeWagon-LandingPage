@@ -1,0 +1,24 @@
+#header-top {
+    text-align: center;
+    background-color: var(--FondoOscuro);
+    color: var(--LetraClara);
+    padding: 1%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--FondoIntermedio);
+    color: var(--LetraClara);
+}
+
+nav ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+#search {
+    width: 50%;
+}
