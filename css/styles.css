@@ -5,3 +5,52 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+h1 {
+    text-align: center;
+    margin-top: 3%;
+    color: var(--LetraOscura);
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    height: 250vh;
+    justify-content: space-evenly;
+    padding-top: 3%;
+}
+
+article {
+    margin: 2% 0;
+    width: 35%;
+    background-color: var( --FondoClaro);
+    height: 30%;
+    box-shadow: 2px 7px 40px -1px rgba(0,0,0,0.85);
+    padding: 5% 2%;
+}
+
+h3 {
+    text-align: center;
+    color: var(--LetraClara);
+}
+
+.imagen {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    left: 20%;
+    margin: 5% 0;
+    background-repeat: no-repeat;
+}
+
+.golden {
+    background-image: url('/img/golden.jpg');
+    background-position: 75% 8%;
+}
+
+.aleman {
+    background-image: url('/img/ovejero alemán.jpg');
+    background-size: 160%;
+}
+
