@@ -54,33 +54,33 @@ p {
 }
 
 .golden {
-    background-image: url('/img/golden.jpg');
+    background-image: url('../img/golden.jpg');
     background-position: 75% 8%;
 }
 
 .aleman {
-    background-image: url('/img/ovejero_aleman.jpg');
+    background-image: url('../img/ovejero_aleman.jpg');
     background-size: 160%;
 }
 
 .husky {
-    background-image: url('/img/husky_siberiano.jpg');
+    background-image: url('../img/husky_siberiano.jpg');
 }
 
 .napolitano {
-    background-image: url('/img/mastin_napolitano.jpg');
+    background-image: url('../img/mastin_napolitano.jpg');
     background-size: 160%;
     background-position: 40%;
 }
 
 .groenendael {
-    background-image: url('/img/ovejero_belga_groenendael.jpg');
+    background-image: url('../img/ovejero_belga_groenendael.jpg');
     background-size: 100%;
     background-position: 10%;
 }
 
 .tervueren{
-    background-image: url('/img/ovejero_belga_tervueren.jpg');
+    background-image: url('../img/ovejero_belga_tervueren.jpg');
     background-size: 215%;
     background-position: 60%;
 }
