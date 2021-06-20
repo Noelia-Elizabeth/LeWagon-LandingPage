@@ -1,7 +1,6 @@
 const perros = [
     {
         raza: 'Golden Retriver',
-        link: '/img/golden.jpg',
         descripcion: 'Son perros muy juguetones y cariñosos. Ideales para familias, pero necesitan mucha antención. Les encanta jugar con peloteas de tennis o palos, siempre y cuando un humano se los tire.'
     },
     {
